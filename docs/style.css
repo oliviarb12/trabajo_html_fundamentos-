@@ -1,21 +1,22 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f9e6f2; /* Light pastel pink background */
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 h1, h2, h3 {
-    color: #0056b3;
+    color: #d5006d; /* Darker pink for headings */
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    background-color: #0056b3;
+    background-color: #d5006d; /* Dark pink for navigation */
     margin: 0;
+    text-align: center; /* Center align navigation items */
 }
 
 nav ul li {
@@ -27,17 +28,18 @@ nav ul li a {
     color: white;
     padding: 15px 20px;
     display: inline-block;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
 nav ul li a:hover {
-    background-color: #004494;
+    background-color: #b0004d; /* Slightly darker pink on hover */
 }
 
 form {
     background-color: white;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
     max-width: 400px;
     margin: auto;
 }
@@ -56,16 +58,17 @@ form input, form textarea {
 }
 
 form input[type="submit"] {
-    background-color: #0056b3;
+    background-color: #d5006d; /* Dark pink for submit button */
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     padding: 10px 20px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
 form input[type="submit"]:hover {
-    background-color: #004494;
+    background-color: #b0004d; /* Slightly darker pink on hover */
 }
 
 img {
@@ -85,4 +88,18 @@ ul li {
 
 p {
     line-height: 1.6;
+    margin: 10px 0; /* Added margin for better spacing */
+}
+
+.Título {
+    margin-left: 5%;
+    text-align: center; /* Center align title */
+}
+
+section {
+    background-color: #fff; /* White background for sections */
+    padding: 20px;
+    margin: 20px 0; /* Space between sections */
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
