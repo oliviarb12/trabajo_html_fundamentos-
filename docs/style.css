@@ -1,105 +1,167 @@
 
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9e6f2; /* Light pastel pink background */
+    font-family: 'Georgia', serif; /* Elegant serif font */
+    line-height: 1.6;
+    background-color: #fff0f5; /* Light pastel pink background */
     color: #333;
-    margin: 0;
-    padding: 0;
 }
 
-h1, h2, h3 {
-    color: #d5006d; /* Darker pink for headings */
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    background-color: #d5006d; /* Dark pink for navigation */
-    margin: 0;
-    text-align: center; /* Center align navigation items */
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    padding: 15px 20px;
-    display: inline-block;
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-}
-
-nav ul li a:hover {
-    background-color: #b0004d; /* Slightly darker pink on hover */
-}
-
-form {
-    background-color: white;
+/* Title styles */
+.Título {
+    text-align: center;
     padding: 20px;
-    border-radius: 10px; /* More rounded corners */
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-    max-width: 400px;
-    margin: auto;
+    background-color: #ffb6c1; /* Light pastel pink */
+    color: #4b0082; /* Darker purple for contrast */
+    border-bottom: 2px solid #ff69b4; /* Hot pink border */
 }
 
-form label {
-    display: block;
-    margin: 10px 0 5px;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form input[type="submit"] {
-    background-color: #d5006d; /* Dark pink for submit button */
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 10px 20px;
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-}
-
-form input[type="submit"]:hover {
-    background-color: #b0004d; /* Slightly darker pink on hover */
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px auto;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-ul li {
-    margin-bottom: 10px;
+/* Main content styles */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff69b4; /* Hot pink */
 }
 
 p {
-    line-height: 1.6;
-    margin: 10px 0; /* Added margin for better spacing */
+    margin: 15px 0;
+    padding: 0 20px;
 }
 
-.Título {
-    margin-left: 5%;
-    text-align: center; /* Center align title */
+/* List styles */
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
 }
 
-section {
-    background-color: #fff; /* White background for sections */
+ul li {
+    margin: 10px 0;
+    position: relative; /* Position for custom bullet */
+    padding-left: 25px; /* Space for custom bullet */
+}
+
+ul li::before {
+    content: ''; /* Custom bullet */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); /* Center the bullet vertically */
+    width: 10px; /* Bullet size */
+    height: 10px; /* Bullet size */
+    background-color: #ff69b4; /* Hot pink bullet */
+    border-radius: 50%; /* Make it circular */
+}
+
+/* Form styles */
+form {
+    max-width: 600px;
+    margin: 20px auto;
     padding: 20px;
-    margin: 20px 0; /* Space between sections */
-    border-radius: 10px; /* More rounded corners */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: #ffffff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ff69b4; /* Hot pink */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d3d3d3; /* Light gray border */
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #ff69b4; /* Hot pink on focus */
+    outline: none;
+}
+
+/* Button styles */
+button {
+    background-color: #ff69b4; /* Hot pink */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff1493; /* Deeper pink on hover */
+}
+
+/* Image styles */
+.images {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.images img {
+    margin: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation styles */
+nav {
+    background-color: #ffb6c1; /* Light pastel pink */
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #4b0082; /* Dark purple */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
 }
