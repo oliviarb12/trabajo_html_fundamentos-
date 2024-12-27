@@ -165,3 +165,29 @@ nav ul li a:hover {
         margin: 5px 0;
     }
 }
+/* Estilo para los títulos principales */
+h1 {
+    border: 2px solid #4CAF50; /* Color del borde */
+    padding: 10px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Color de fondo */
+    text-align: center; /* Alinear el texto al centro */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo para los subtítulos */
+h2 {
+    border: 2px solid #2196F3; /* Color del borde */
+    padding: 8px; /* Espaciado interno */
+    background-color: #e3f2fd; /* Color de fondo */
+    margin-top: 20px; /* Espacio superior */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo para los sub-subtítulos */
+h3 {
+    border: 1px solid #FF9800; /* Color del borde */
+    padding: 6px; /* Espaciado interno */
+    background-color: #fff3e0; /* Color de fondo */
+    margin-top: 15px; /* Espacio superior */
+    border-radius: 5px; /* Bordes redondeados */
+}
