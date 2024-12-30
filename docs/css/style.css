@@ -191,3 +191,49 @@ h3 {
     margin-top: 15px; /* Espacio superior */
     border-radius: 5px; /* Bordes redondeados */
 }
+
+/* Estilos existentes */
+body {
+    /* tus estilos existentes */
+}
+
+/* Nuevos estilos añadidos */
+body {
+    background-color: #fae4f1; /* Color de fondo suave */
+    margin: 0;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif; /* Aplicar la nueva fuente */
+}
+
+.Título h1 {
+    color: #ff69b4; /* Color rosa */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 2.5em; /* Tamaño de fuente más grande */
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #333; /* Color de texto oscuro */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff69b4; /* Color rosa */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff1493; /* Color más oscuro al pasar el ratón */
+}
