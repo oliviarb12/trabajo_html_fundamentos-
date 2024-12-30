@@ -5,11 +5,17 @@
 Esta página web que he creado consiste en distintos archivos de código de html
 que he ido enlazando, hasta conseguir la web completa.
 El inicio de la página web tiene el menú de navegación principal en el que se puede acceder acceder a las distintas partes (acerca de mí, contacto, red de compañeros,tema,grado), aunque cada sección tiene su propio menú de navegación secundario.
+
 En la sección de **Acerca de mí** encontrarás una breve introducción a mis gustos y donde estudio, pero podrás acceder a mi curriculum vitae através del link, y también a mis redes sociales.
+
 En la sección de **Contacto** podrás enviarme un mensaje a través de un formulario de contacto, y podrás acceder a links de mis redes también.
+
 En la sección de **Red de compañeros** podrás acceder através de distintos links a las webs de algunos de mis compañeros de clase.
+
 En la sección de **Tema** encontrarás información sobre la ciberseguridad, y además, dos links a unas páginas webs para profundizar sobre el tema.
+
 En la sección de **Grado** encontrarás información general sobre el grado de informática y las materias de los distintos años. En la materia de Fundamentos de Ingeniería informática incluye un enlace a otra página web, en el que se profundiza sobre los aspectos más importantes de la materia.
+
 Por último, el estilo de la página web es minimalista y fácil de navegar, de tonos rosados porque es uno de mis colores favoritos. He conseguido incluir todo este estilo mediante el uso de CSS.
 
 ##Problemas durante el desarrollo
