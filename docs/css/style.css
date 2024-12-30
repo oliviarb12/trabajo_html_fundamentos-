@@ -1,33 +1,33 @@
 
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styles */
+
 body {
-    font-family: 'Georgia', serif; /* Elegant serif font */
+    font-family: 'Georgia', serif; 
     line-height: 1.6;
-    background-color: #fff0f5; /* Light pastel pink background */
+    background-color: #fff0f5; 
     color: #333;
 }
 
-/* Title styles */
+
 .Título {
     text-align: center;
     padding: 20px;
-    background-color: #ffb6c1; /* Light pastel pink */
-    color: #4b0082; /* Darker purple for contrast */
-    border-bottom: 2px solid #ff69b4; /* Hot pink border */
+    background-color: #ffb6c1; 
+    color: #4b0082; 
+    border-bottom: 2px solid #ff69b4; 
 }
 
-/* Main content styles */
+
 h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #ff69b4; /* Hot pink */
+    color: #ff69b4; 
 }
 
 p {
@@ -35,36 +35,36 @@ p {
     padding: 0 20px;
 }
 
-/* List styles */
+
 ul {
-    list-style-type: none; /* Remove default bullets */
+    list-style-type: none; 
     padding: 0;
 }
 
 ul li {
     margin: 10px 0;
-    position: relative; /* Position for custom bullet */
-    padding-left: 25px; /* Space for custom bullet */
+    position: relative; 
+    padding-left: 25px; 
 }
 
 ul li::before {
-    content: ''; /* Custom bullet */
+    content: ''; 
     position: absolute;
     left: 0;
     top: 50%;
-    transform: translateY(-50%); /* Center the bullet vertically */
-    width: 10px; /* Bullet size */
-    height: 10px; /* Bullet size */
-    background-color: #ff69b4; /* Hot pink bullet */
-    border-radius: 50%; /* Make it circular */
+    transform: translateY(-50%); 
+    width: 10px; 
+    height: 10px; 
+    background-color: #ff69b4; 
+    border-radius: 50%; 
 }
 
-/* Form styles */
+
 form {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background: #ffffff; /* White background for the form */
+    background: #ffffff; 
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
@@ -77,7 +77,7 @@ label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #ff69b4; /* Hot pink */
+    color: #ff69b4; 
 }
 
 input[type="text"],
@@ -85,7 +85,7 @@ input[type="email"],
 textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #d3d3d3; /* Light gray border */
+    border: 1px solid #d3d3d3; 
     border-radius: 4px;
     transition: border-color 0.3s;
 }
@@ -93,13 +93,13 @@ textarea {
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-    border-color: #ff69b4; /* Hot pink on focus */
+    border-color: #ff69b4; 
     outline: none;
 }
 
-/* Button styles */
+
 button {
-    background-color: #ff69b4; /* Hot pink */
+    background-color: #ff69b4; 
     color: white;
     border: none;
     padding: 10px 15px;
@@ -109,10 +109,10 @@ button {
 }
 
 button:hover {
-    background-color: #ff1493; /* Deeper pink on hover */
+    background-color: #ff1493; 
 }
 
-/* Image styles */
+
 .images {
     display: flex;
     justify-content: center;
@@ -125,9 +125,9 @@ button:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Navigation styles */
+
 nav {
-    background-color: #ffb6c1; /* Light pastel pink */
+    background-color: #ffb6c1; 
     padding: 10px 0;
 }
 
@@ -141,7 +141,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #4b0082; /* Dark purple */
+    color: #4b0082; 
     text-decoration: none;
     font-weight: bold;
 }
@@ -150,7 +150,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Responsive styles */
+
 @media (max-width: 600px) {
     .images {
         flex-direction: column;
@@ -165,56 +165,56 @@ nav ul li a:hover {
         margin: 5px 0;
     }
 }
-/* Estilo para los títulos principales */
+
 h1 {
-    border: 2px solid #4CAF50; /* Color del borde */
-    padding: 10px; /* Espaciado interno */
-    background-color: #f9f9f9; /* Color de fondo */
-    text-align: center; /* Alinear el texto al centro */
-    border-radius: 5px; /* Bordes redondeados */
+    border: 2px solid #4CAF50; 
+    padding: 10px; 
+    background-color: #f9f9f9; 
+    text-align: center; 
+    border-radius: 5px; 
 }
 
-/* Estilo para los subtítulos */
+
 h2 {
-    border: 2px solid #2196F3; /* Color del borde */
-    padding: 8px; /* Espaciado interno */
-    background-color: #e3f2fd; /* Color de fondo */
-    margin-top: 20px; /* Espacio superior */
-    border-radius: 5px; /* Bordes redondeados */
+    border: 2px solid #2196F3; 
+    padding: 8px; 
+    background-color: #e3f2fd; 
+    margin-top: 20px; 
+    border-radius: 5px; 
 }
 
-/* Estilo para los sub-subtítulos */
+
 h3 {
-    border: 1px solid #FF9800; /* Color del borde */
-    padding: 6px; /* Espaciado interno */
-    background-color: #fff3e0; /* Color de fondo */
-    margin-top: 15px; /* Espacio superior */
-    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #FF9800; 
+    padding: 6px; 
+    background-color: #fff3e0; 
+    margin-top: 15px; 
+    border-radius: 5px; 
 }
 
-/* Estilos existentes */
+
 body {
-    /* tus estilos existentes */
+    
 }
 
-/* Nuevos estilos añadidos */
+
 body {
-    background-color: #fae4f1; /* Color de fondo suave */
+    background-color: #fae4f1; 
     margin: 0;
     padding: 20px;
-    font-family: 'Roboto', sans-serif; /* Aplicar la nueva fuente */
+    font-family: 'Roboto', sans-serif; 
 }
 
 .Título h1 {
-    color: #ff69b4; /* Color rosa */
+    color: #ff69b4; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-size: 2.5em; /* Tamaño de fuente más grande */
+    font-size: 2.5em; 
 }
 
 p {
     font-size: 1.2em;
     line-height: 1.5;
-    color: #333; /* Color de texto oscuro */
+    color: #333; 
 }
 
 nav ul {
@@ -229,11 +229,11 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ff69b4; /* Color rosa */
+    color: #ff69b4; 
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #ff1493; /* Color más oscuro al pasar el ratón */
+    color: #ff1493; 
 }
